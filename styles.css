@@ -1,0 +1,38 @@
+body {
+  background-color: #e7d39f;
+  font-family: "Montserrat";
+  color: #fb7b6b;
+  margin: 0%;
+}
+footer {
+  background-color: #d7385e;
+  text-align: center;
+  padding: 3% 0% 2%;
+}
+h1 {
+  font-family: "Kaushan Script";
+  font-size: 7rem;
+}
+h3 {
+  font-size: 3rem;
+}
+.container {
+  text-align: center;
+}
+.dice {
+  display: inline-block;
+  padding: 5% 5% 15%;
+}
+
+.icon {
+  margin: 1%;
+}
+.icon:hover {
+  color: white;
+}
+
+@media (max-width: 1030px) {
+  body {
+    text-align: center;
+  }
+}
