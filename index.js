@@ -2,7 +2,7 @@ var randomNumber1 = Math.floor(Math.random() * 6) + 1; //range number 1-6
 
 var randomImage = "dice" + randomNumber1 + ".png"; //change pics names random;y  dice 1-6 .png
 
-var randomImageSource = "/images/" + randomImage; //change pics base on name
+var randomImageSource = "images/" + randomImage; //change pics base on name
 
 var image1 = document.querySelectorAll("img")[0]; // set variable  base on selector
 
@@ -14,7 +14,7 @@ var randomNumber2 = Math.floor(Math.random() * 6) + 1; //range number 1-6
 
 var randomImage2 = "dice" + randomNumber2 + ".png"; //change pics names random;y  dice 1-6 .png
 
-var randomImageSource2 = "/images/" + randomImage2; //change pics base on name
+var randomImageSource2 = "images/" + randomImage2; //change pics base on name
 
 var image2 = document.querySelectorAll("img")[1]; // set variable  base on selector
 
